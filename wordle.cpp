@@ -13,16 +13,24 @@
 
 std::vector<int> createSecret() {
     // Write this procedure here
+    //this makes the secret number
+    for (int = 0; i < 4; i = i + 1)
+    {
+        createSecret.push_back(int random_num = rand() % 10;)
+    }
+
     return {};    // replace this with your code
 }
 
 std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess) {
     // Write this procedure here
+    // makes the X and O (O = number in that digit place is correct X = number in that digit is incorrect)
     return {"X", "X", "X", "X"};    // replace this with your code
 }
 
 bool winGame(std::vector<int> secret, std::vector<int> guess) {
     // Write this procedure here
+    // This tells me is I won the game or not
     return false;    // replace this with your code
 }
 
