@@ -11,20 +11,28 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
-std::vector<int> createSecret() {
+std::vector<int> createSecret() 
+{
     // Write this procedure here
     //this makes the secret number
+    std::vector<int> code = {};
     for (int = 0; i < 4; i = i + 1)
     {
-        createSecret.push_back(int random_num = rand() % 10;)
+        int num = rand() % 10;
+        code.push_back(num);
     }
 
-    return {};    // replace this with your code
+    return code;    // replace this with your code
 }
 
 std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess) {
     // Write this procedure here
     // makes the X and O (O = number in that digit place is correct X = number in that digit is incorrect)
+    
+    for (int = 0; i < 4 i = i + 1)
+    {
+        if ()
+    }
     return {"X", "X", "X", "X"};    // replace this with your code
 }
 
